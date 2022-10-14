@@ -34,7 +34,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3290271661';
+    var serviceWorkerVersion = '37985593';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -54,9 +54,10 @@
       });
     });
   </script>
+  <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js"></script>
   <script>
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-analytics.js";    
+      
         var firebaseConfig = {
           apiKey: 'AIzaSyBsSdf0Ae3FoAW6ndA1eoTi6EBMD4vSr8E',
         appId: '1:679049106168:web:029bcb5f61aedc391e210d',
@@ -66,8 +67,8 @@
         storageBucket: 'oppkeytheta.appspot.com',
         measurementId: 'G-KS34LREM34',
         }
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
+        firebase.initializeApp(firebaseConfig);
+        firebase.getAnalytics(app);
       </script>   
 </body>
 </html>
