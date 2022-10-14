@@ -34982,7 +34982,7 @@ A.WK.prototype={
 $0(){A.m7(this.a,!1).tR(null)},
 $S:0}
 A.WL.prototype={
-$0(){B.Mf.a40(window,"https://devs.theta360.guide/theta-x-dev-info-community-page/","_blank")},
+$0(){B.Mf.a40(window,"https://devs.theta360.guide/theta-x-dev-info-community-page/","_self")},
 $S:0}
 A.WQ.prototype={
 $0(){A.adZ(new A.WN(),this.a,t.z)},
